@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 ROOT_PATH = os.path.abspath(os.path.join(".."))
-DATA_FILE_PATH = os.path.join(ROOT_PATH, "data-file", "ice_cream_rater_data.csv")
+DATA_FILE_PATH = os.path.join(ROOT_PATH, "data-files", "ice_cream_rater_data.csv")
 OUTPUT_MODEL_PATH = os.path.join(ROOT_PATH, "output-model", "ice_cream_rater_model.joblib")
 
 try:
