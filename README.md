@@ -10,4 +10,4 @@ __Output model__: This is the destination directory in which, the learner dumps 
 
 __Python scrip learner__: Inside this directory is the machine learning algorithm, that will use both previous directories for the training process. 
 
-The code is scikit-learn framework to create a classifying model using the kth nearest neighbor algorithm, to be able to classify new recipes.
+The python script uses scikit-learn framework to create a classifying model using the kth nearest neighbor algorithm, to be able to classify new recipes.
