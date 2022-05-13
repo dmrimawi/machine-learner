@@ -1,5 +1,7 @@
 import os
 import sys
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 import joblib
 import numpy as np
@@ -8,6 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+
 
 ROOT_PATH = os.path.abspath(os.path.join(".."))
 DATA_FILE_PATH = os.path.join(ROOT_PATH, "data-files", "ice_cream_rater_data.csv")
