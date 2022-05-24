@@ -19,3 +19,5 @@ To be able to run the learning script, you need to install the required pip pack
 
 >> python ice_creame_learner.py
 ```
+
+For more information about the project please refer to [ice cream web app](https://github.com/dmrimawi/ice_cream_web_app) repository.
